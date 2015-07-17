@@ -45,7 +45,7 @@
       ]
     },
     "gatewayToApiAppSecret": {
-      "defaultValue": "0000000000000000000000000000000000000000000000000000000000000000",
+      "defaultValue": "Y3NzY3JpcHRpbmdhcGk=",
       "type": "securestring"
     }
   },
@@ -335,12 +335,12 @@
                 "operation": "ExecuteScript",
                 "parameters": {
                     "body": {
-                        "script": "return args;",
-                        "context": [
+                        "script": "return message;",
+                        "context": 
                             {
-                                "Message": "Hello World"
+                                "message": "Hello World"
                             }
-                        ]
+                        
                     }
                 },
                 "authentication": {
