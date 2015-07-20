@@ -140,7 +140,7 @@
           "type": "tokens",
           "apiVersion": "2015-03-01-preview",
           "location": "[resourceGroup().location]",
-          "name": "[parameters('logicAppName')]",
+          "name": "[parameters('apiAppName')]",
           "tags": {
             "displayName": "AuthenticationToken"
           },
@@ -285,7 +285,7 @@
     {
       "type": "Microsoft.Logic/workflows",
       "apiVersion": "2015-02-01-preview",
-      "name": "[parameters('logicAppName')]",
+      "name": "[parameters('apiAppName')]",
       "location": "[resourceGroup().location]",
       "tags": {
         "displayName": "LogicApp"
