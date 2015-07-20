@@ -285,7 +285,7 @@
     {
       "type": "Microsoft.Logic/workflows",
       "apiVersion": "2015-02-01-preview",
-      "name": "[parameters('apiAppName')]",
+      "name": "[parameters('logicAppName')]",
       "location": "[resourceGroup().location]",
       "tags": {
         "displayName": "LogicApp"
