@@ -305,7 +305,7 @@
           "contentVersion": "1.0.0.0",
           "parameters": {
             "token": {
-              "defaultValue": "[reference(resourceId('Microsoft.AppService/gateways/tokens', parameters('gatewayName'), parameters('logicAppName'))).token]",
+              "defaultValue": "[reference(resourceId('Microsoft.AppService/gateways/tokens', parameters('gatewayName'), parameters('apiAppName'))).token]",
               "type": "String",
               "metadata": {
                 "token": {
